@@ -1,0 +1,120 @@
+html { box-sizing: border-box; }
+*, :after, :before { box-sizing: inherit; }
+
+body{
+    color: #8B8B8B;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;  
+    font-size: 16px;
+    background-color: #FAFAFA;
+    margin: 0 20px 60px 20px;
+}
+
+h1,
+h2 {
+    color: black;
+    font-weight: 500;
+}
+
+h1 {
+    font-size: 28px;
+
+}
+
+h2 {
+    margin: 60px auto 15px auto;
+}
+
+h1::after {
+    border-bottom: 2px solid #407BFF ;
+    display: block;
+    content: " ";
+    width: 60px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.uvod {
+    margin: 30px 20px;
+}
+
+.dobrodruzstvi,
+.pohoda {
+    font-size: 14px;
+    font-weight: 400;
+    color: white;
+    background-color: #407BFF;
+    padding: 10px 30px;
+    border-radius: 20px;
+    width: fit-content;
+    margin: 30px auto 10px auto;
+}
+
+.pohoda {
+    background-color: #8B8B8B;
+    margin: 10px auto;
+}
+
+header img {
+    margin-top: 60px;
+    margin-bottom: 40px;
+    width: 100%;
+    max-width: 350px;
+}
+
+.sluzby-ck p,
+.sluzby-delegat p {
+    font-size: 13px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+.sluzby-ck-flexbox,
+.sluzby-delegat-flexbox {
+    display:flex;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 460px;
+    margin-left: auto;
+    margin-right: auto;
+    
+
+}
+
+.sluzby-ck-1,
+.sluzby-ck-2,
+.sluzby-ck-3,
+.sluzby-delegat-1,
+.sluzby-delegat-2,
+.sluzby-delegat-3 {
+    display: flex;
+    flex: 1 0 100%;
+    height: 80px;
+    margin-bottom: 15px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px #407BFF1F; 
+    text-align: left;    
+}
+
+.mapa,
+.kaktus,
+.letadlo,
+.palma,
+.slunecnik,
+.karavan {
+    height: 40px;
+    max-width: 52px;
+    width: 100%;
+    float: left;
+    padding-right: 20px;
+}
+
+@media (min-width: 640px) {
+    
+}
+
+@media screen and (min-width: 1100px) {
+    
+}
