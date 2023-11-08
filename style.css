@@ -52,6 +52,11 @@ h1::after {
     margin: 30px auto 10px auto;
 }
 
+.button:hover,
+.button:focus {
+    text-decoration: underline;
+}
+
 .pohoda {
     background-color: #8B8B8B;
     margin: 10px auto 60px auto;
